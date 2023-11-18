@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.title h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.title{
+    background-color: #202c34;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-img {
+    background-color: #20bcb4;
+    padding: 30px;
+}
+
+.categories p{
+    color: white;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.third-container{
+    background-color: #20bcb4;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.category-container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 30px;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+}
+
+.redButton {
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+.whiteButton {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+.greenButton {
+    background-color: #202c34;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
